@@ -1,0 +1,9 @@
+E:\Work\.SWMacro\SaveToPDF\SaveToPDF\bin\Debug\SaveToPDF.exe.config
+E:\Work\.SWMacro\SaveToPDF\SaveToPDF\bin\Debug\SaveToPDF.exe
+E:\Work\.SWMacro\SaveToPDF\SaveToPDF\bin\Debug\SaveToPDF.pdb
+E:\Work\.SWMacro\SaveToPDF\SaveToPDF\obj\Debug\SaveToPDF.Properties.Resources.resources
+E:\Work\.SWMacro\SaveToPDF\SaveToPDF\obj\Debug\SaveToPDF.csproj.GenerateResource.cache
+E:\Work\.SWMacro\SaveToPDF\SaveToPDF\obj\Debug\SaveToPDF.csproj.CoreCompileInputs.cache
+E:\Work\.SWMacro\SaveToPDF\SaveToPDF\obj\Debug\SaveToPDF.exe
+E:\Work\.SWMacro\SaveToPDF\SaveToPDF\obj\Debug\SaveToPDF.pdb
+E:\Work\.SWMacro\SaveToPDF\SaveToPDF\obj\Debug\SaveToPDF.csprojAssemblyReference.cache
