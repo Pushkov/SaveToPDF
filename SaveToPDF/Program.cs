@@ -25,8 +25,6 @@ namespace SaveToPDF
                 IModelDoc2 doc = swApp.ActiveDoc;
                 if (isDrawing(doc))
                 {
-                    Frame frame = swApp.Frame();
-
                     IDrawingDoc drawing = (IDrawingDoc)doc;
                     string fullDrawingPath = doc.GetPathName();
                     string drawingPath = getPath(fullDrawingPath);
@@ -52,9 +50,14 @@ namespace SaveToPDF
                             Directory.CreateDirectory(fullPdfPath);
                         }
                         ExportPdfData data = swApp.GetExportFileData((int)swExportDataFileType_e.swExportPdfData);
+                        data.ExportAs3D = false;
+                        data.ViewPdfAfterSaving = false;
+                        data.SetSheets( (int) swExportDataSheetsToExport_e.swExportData_ExportSpecifiedSheets, sheet);
+
                         doc.Extension.SaveAs(fullPdfPath + pdfFileName, 0, 0, data, 0, 0);
                     }
                     drawing.ActivateSheet(currentSheet);
+                    Frame frame = swApp.Frame();
                     frame.SetStatusBarText("Создание PDF файлов завершено.");
                 }
             }
